@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource 
+		name="jdbc/projet"
+		type="javax.sql.DataSource"
+		driverClassName="[]...]"
+		url="[...]"
+		username="[...]"
+		password="[...]"
+		maxTotal="10"	
+		>
+
+</Resource>
+</Context>
