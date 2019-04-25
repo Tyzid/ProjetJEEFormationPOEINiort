@@ -1,0 +1,5 @@
+<div id="skyline">
+	<div class="container" id="title">
+	    <h1><center>${page-title}</center></h1>
+	</div>
+</div>

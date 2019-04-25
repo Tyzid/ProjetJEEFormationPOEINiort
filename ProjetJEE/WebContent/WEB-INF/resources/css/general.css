@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#skyline{
+    background-image: url(img/fond.jpg);
+    padding-bottom: 20px;
+}

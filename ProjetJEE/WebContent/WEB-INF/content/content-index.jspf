@@ -1,0 +1,29 @@
+
+
+	<div class="container">
+	    <div class="row">
+	        <div class="col-12">
+	            <div class="row">
+					<c:forEach items="${restaurants}" var="restaurant" varStatus="status">
+	            	
+		            	<div class="col-12 bloc-other-restaurant">
+		            		<h3>${restaurant.getName()}</h3>
+		                    <p>${restaurant.getAdress()}</p>
+		                    <img src="<%=request.getContextPath()%>/img/${restaurant.getImageName()}.jpg" class="float-left" alt="restaurant_${status.count}_picture">
+		                    <div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43168.614592350765!2d1.752284714351911!3d47.45019066859599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4ccc4e51bf637%3A0x44e12fab9ba0f83f!2s41200+Millan%C3%A7ay!5e0!3m2!1sfr!2sfr!4v1556197352483!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>		                    </div>
+		                </div>
+		                
+		             </c:forEach>
+		             
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+
+	<!--  
+	Nantes : XHVaZC5dgJSJnMpF8
+	Brest : hwpg4zTQuBRATshi9
+	Rennes : ECBPcPCVkL8XVwjE7
+	-->
